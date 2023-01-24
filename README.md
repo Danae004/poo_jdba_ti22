@@ -7,5 +7,4 @@
 |1|programa0.py|Hola mundo en python3|
 |2|programa1.py|Comentarios multilinea, comentarios de una linea y concatenacion|
 |3|programa2.py|Formatear variables he identificar formas incorrectas de usar el codigo|
-|4|programa3.py|Operaciones aritmeticas 
-usando el "print" y el "format"|
+|4|programa3.py|Operaciones aritmeticas usando el "print" y el "format"|
