@@ -14,9 +14,8 @@ division= int(numero1) / numero2
 
 multiplicacion = (numero1) * numero2
 
-potencia = int(
 print(suma)
 print(resta)
 print(division)
 print(multiplicacion)
-print(potencia)
+
