@@ -8,16 +8,16 @@ print("Este programa logra comparar dos numeros enteros para saber cual es el nu
 
 print("Bienvenido humano :)")
 
-numero1 =input("Coloca el primer numero entero: ")
-numero2 =input("Coloca el segundo numero: ")
+n1 =input("Coloca el primer numero entero: ")
+n2 =input("Coloca el segundo numero: ")
 
-
-if numero1 < numero2
-print("El numero mayor es:",numero2)
-if numero2 < numero1
-print("El numero mayor es:",numero1)
+if n1 > n2:
+    print(f"Humano el numero {n2} es mayor que {n1}")
 else:
-print("ambos numeros son iguales")
+    print(f"Humano el numero {n1} es mayor que {n2}") 
+
+
+
 
 
 
