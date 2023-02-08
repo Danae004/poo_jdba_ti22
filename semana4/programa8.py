@@ -1,4 +1,13 @@
+"""
+    Programa8
+    Nombre: Danae Barqueras A
+    Fecha: 01/02/2023
+    Descripcion:Formas de comparar dos numeros y obtener el numero mayor
+"""
+
 #PRIMERA FORMA
+n1 =input("Coloca el primer numero entero: ")#Colocar un numero
+n2 =input("Coloca el segundo numero: ")#Colocar un segundo numero
 
 if n1 > n2 :
     print(n1)
