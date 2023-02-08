@@ -10,9 +10,9 @@ def mayor(numero1,numero2) :
     if numero1 > numero2 :
          print(numero1)
     elif numero2 > numero1 :
-      print(numero2)
+         print(numero2)
     else:
-      print(None)
+         print(None)
        
 mayor(10,5)#3
 mayor(5,10)#3
