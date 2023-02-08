@@ -8,3 +8,7 @@
 |2|programa1.py|Comentarios multilinea, comentarios de una linea y concatenacion|
 |3|programa2.py|Formatear variables he identificar formas incorrectas de usar el codigo|
 |4|programa3.py|Operaciones aritmeticas usando el "print" y el "format"|
+|5|programa4.py|casting|
+|6|programa5.py|Obtener el area de un triangulo|
+|7|programa6.py|Area del circulo y cuadrado|
+|8|programa7.py|Comparar dos numeros y saber cual es el mayor|
