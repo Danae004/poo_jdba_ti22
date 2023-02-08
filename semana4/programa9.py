@@ -14,9 +14,9 @@ def mayor(numero1,numero2) :
     else:
       print(None)
        
-mayor(3,2)#3
-mayor(2,3)#3
-mayor(3,3)#None
+mayor(10,5)#3
+mayor(5,10)#3
+mayor(5,5)#None
 
 
 
@@ -34,6 +34,6 @@ def mayor(numero1:int,numero2:int)->int :
     return mayor
 
 
-print(mayor(3,2))#3
-print(mayor(2,3))#3
-print(mayor(3,3))#None
+print(mayor(8,4))#3
+print(mayor(8,4))#3
+print(mayor(4,4))#None

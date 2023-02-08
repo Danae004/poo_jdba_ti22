@@ -12,3 +12,5 @@
 |6|programa5.py|Obtener el area de un triangulo|
 |7|programa6.py|Area del circulo y cuadrado|
 |8|programa7.py|Comparar dos numeros y saber cual es el mayor|
+|9|programa8.py|Formas de comparar dos numeros y obtener el numero mayor|
+|10|programa9.py|comparar y obtener un numero mayor con funciones como "def"|
