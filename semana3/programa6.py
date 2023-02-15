@@ -2,7 +2,8 @@
     Programa6
     Nombre: Danae Barqueras A
     Fecha: 31/01/2023
-    Descripcion: Area y perimetro del circulo y cuadrado
+    Descripcion: Area y perimetro del 
+    circulo y cuadrado
 """
 print("Este programa saca el area y perimetro de un circulo y cuadrado")
 PI= (3.1416)

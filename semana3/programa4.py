@@ -9,7 +9,7 @@ numero1 = input("Numero 1: ") #Colocar cualquier valor
 numero2 = 10
 suma = int(numero1) + numero2 # Colocar el valor a la variable
 resta = int(numero1) - numero2
-#Realizar modificaciones a cada variable dependiendo la funcion que quiera que aga
+#Realizar modificaciones a cada variable dependiendo la funcion que quiera que haga
 
 division= int(numero1) / numero2
 
