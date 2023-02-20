@@ -1,40 +1,84 @@
 """
-    Programa7
+    Programa9
     Nombre: Danae Barqueras A
     Fecha: 01/02/2023
-    Descripcion:comparar y obtener un numero mayor
+    Descripcion:Formas de comparar dos numeros y obtener el numero mayor
 """
-#Primero definimos cada variable y asignacion
 
-def mayor(numero1,numero2) :
-    if numero1 > numero2 :
-         print(numero1)
-    elif numero2 > numero1 :
-         print(numero2)
+#PRIMERA FORMA
+n1 =input("Coloca el primer numero entero: ")#Colocar un numero
+n2 =input("Coloca el segundo numero: ")#Colocar un segundo numero
+
+if n1 > n2 :
+    print(n1)
+    if n2 > n1 :
+        print(n2)
+if n1 == n2 :
+    print(None)
+
+#SEGUNDA FORMA
+    if n2 > n1 :
+        print(n2)
+        if n1 > n2 :
+            print(n1)
+    if n2 == n1 :
+        print(None)
+#TERCERA FORMA
+    if n1 > n2 :
+        print(n1)
+    elif n2 > n1 :
+        print(n2)
     else:
-         print(None)
-       #Colocamos las formas en las que nuestro programa debe responder
-mayor(10,5)#3
-mayor(5,10)#3
-mayor(5,5)#None
-#Asignamos valores para ejecutar nuestro codigo
-
-
-#Colocamos las variables con las asignaciones
-def mayor(numero1:int,numero2:int)->int :
-    mayor= None
-    if numero1 > numero2 :
-        mayor = numero1
-        mayor=numero1
-    elif numero2 > numero1 :
-        mayor= numero2
+        print(None)
+#CUARTA FORMA
+    if n1 < n2 :
+        print(n2)
+    elif n2 < n1 :
+        print(n1)
     else:
-         mayor=None
-       #Damos las decisiones (o posibles) que puede tomar
-    return mayor
+        print(None)
+#QUINTA FORMA
+    if n2 < n1 :
+        print(n1)
+    if n1 < n2 :
+        print(n2)
+    if n1 == n2 :
+        print(None)
+#SEXTA FORMA
+    if n1 >= n2 :
+        if n1 > n2 :
+            print(n1)
+    else:
+        print(None)
+ 
+#SEPTIMA FORMA
+    if n1 <= n2 :
+        if n1 < n2:
+          print(n2)
+else:
+    print(None)
 
+#OCTABA FORMA
+    if n1 <= n2 :
+      if n1 == n2 :
+       print(n1)
+      else:
+          print(None)
+    else:
+            print(n2)
+#NOVENA FORMA
+if n1 == n2:
+    print(None)
+elif n1 > n2 :
+    print(n1)
+else:
+    print(n2)
+#DECIMA FORMA
+    if n2 == n1:
+        print(None)
+    elif n1 > n2:
+        print(n2)
+    else:
+        print(n1)
 
-print(mayor(8,4))#3
-print(mayor(8,4))#3
-print(mayor(4,4))#None
-#Asignamos los valores he imprimimos
+#ONCEABA FORMA
