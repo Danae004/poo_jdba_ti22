@@ -9,15 +9,15 @@
 n1 =input("Coloca el primer numero entero: ")#Colocar un numero
 n2 =input("Coloca el segundo numero: ")#Colocar un segundo numero
 
-if n1 > n2 :
+if n1 > n2 : #Primera comparacion para saber si el numero 1 es menor que el numero 2
     print(n1)
     if n2 > n1 :
-        print(n2)
+        print(n2) #Si el numero es mayor, entonses el programa imprime la segunda declaracion
 if n1 == n2 :
-    print(None)
+    print(None) #Si los numeros son iguales entonses el programa imprime "None"
 
 #SEGUNDA FORMA
-    if n2 > n1 :
+    if n2 > n1 : #Primera comparacion para saber si el numero 1 es menor que el numero 2
         print(n2)
         if n1 > n2 :
             print(n1)
