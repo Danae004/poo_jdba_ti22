@@ -4,8 +4,6 @@ FECHA: 14/02/23
 DESCRIPCION: En esta etapa veremos todo lo relacionado con "POO"
 """
 
-
-
 class Persona:
     __nombre=None
     __email=None
